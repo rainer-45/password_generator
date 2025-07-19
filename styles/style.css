@@ -7,10 +7,18 @@
 body {
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(to top, #ed0f0f 100%, #68e0cf 200%);
+    background-image: linear-gradient(to top, #98b6f2 100%, #68e0cf 200%);
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+h2 {
+    color: #fff;
+}
+
+h3 {
+    color: #eeeeee;
 }
 
 button {
@@ -60,7 +68,7 @@ button {
     width: 100%;
     height: 65px;
     overflow: hidden;
-    background-color: #0d0b00;
+    background-color: #ffffff;
 
     &__info {
         &.right {
@@ -94,8 +102,8 @@ button {
         position: absolute;
         top: var(--y);
         left: var(--x);
-        width: 38px;
-        height: 38px;
+        width: 10px;
+        height: 10px;
         background: #fff;
         border-radius: 50%;
         opacity: 0;
@@ -112,7 +120,7 @@ button {
     &:hover {
         #copy-btn {
             opacity: 1;
-            transform: translate(-50%, -50%) scale(1.35);
+            transform: translate(-90%, -90%) scale(1.35);
         }
     }
 }
