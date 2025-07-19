@@ -1,0 +1,128 @@
+[debug] [2025-07-19T03:26:52.045Z] ----------------------------------------------------------------------
+[debug] [2025-07-19T03:26:52.047Z] Command:       /usr/local/bin/firebase /home/devasc/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase init
+[debug] [2025-07-19T03:26:52.047Z] CLI Version:   14.5.0
+[debug] [2025-07-19T03:26:52.047Z] Platform:      linux
+[debug] [2025-07-19T03:26:52.047Z] Node Version:  v20.18.2
+[debug] [2025-07-19T03:26:52.047Z] Time:          Sat Jul 19 2025 03:26:52 GMT+0000 (Coordinated Universal Time)
+[debug] [2025-07-19T03:26:52.047Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-07-19T03:26:52.277Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-07-19T03:26:52.278Z] > authorizing via signed-in user (chikboy33@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/devasc/labs/devnet-src/password-generator
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-07-19T03:26:58.065Z] Using project from CLI flag: testingpasswordgenerator
+[debug] [2025-07-19T03:26:58.066Z] Checked if tokens are valid: true, expires at: 1752898923167
+[debug] [2025-07-19T03:26:58.067Z] Checked if tokens are valid: true, expires at: 1752898923167
+[debug] [2025-07-19T03:26:58.068Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/testingpasswordgenerator [none]
+[debug] [2025-07-19T03:26:59.647Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/testingpasswordgenerator 200
+[debug] [2025-07-19T03:26:59.648Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/testingpasswordgenerator {"projectId":"testingpasswordgenerator","projectNumber":"179666462827","displayName":"TestingPasswordGenerator","name":"projects/testingpasswordgenerator","resources":{"hostingSite":"testingpasswordgenerator"},"state":"ACTIVE","etag":"1_5487dd5e-48ad-416c-90ad-2b7f54d3b99a"}
+[info] i  Using project testingpasswordgenerator (TestingPasswordGenerator) 
+[info] 
+=== Hosting Setup
+[debug] [2025-07-19T03:26:59.680Z] Checked if tokens are valid: true, expires at: 1752898923167
+[debug] [2025-07-19T03:26:59.680Z] Checked if tokens are valid: true, expires at: 1752898923167
+[debug] [2025-07-19T03:26:59.680Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/testingpasswordgenerator [none]
+[debug] [2025-07-19T03:27:00.048Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/testingpasswordgenerator 200
+[debug] [2025-07-19T03:27:00.049Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/testingpasswordgenerator {"projectId":"testingpasswordgenerator","projectNumber":"179666462827","displayName":"TestingPasswordGenerator","name":"projects/testingpasswordgenerator","resources":{"hostingSite":"testingpasswordgenerator"},"state":"ACTIVE","etag":"1_5487dd5e-48ad-416c-90ad-2b7f54d3b99a"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2025-07-19T03:27:10.369Z] ExitPromptError: User force closed the prompt with SIGINT
+    at Interface.sigint (/home/devasc/.cache/firebase/tools/lib/node_modules/@inquirer/core/dist/commonjs/lib/create-prompt.js:101:37)
+    at Interface.emit (node:events:518:28)
+    at Interface.emit (node:domain:489:12)
+    at [_ttyWrite] [as _ttyWrite] (node:internal/readline/interface:1125:18)
+    at ReadStream.onkeypress (node:internal/readline/interface:264:20)
+    at ReadStream.emit (node:events:530:35)
+    at ReadStream.emit (node:domain:489:12)
+    at emitKeys (node:internal/readline/utils:371:14)
+    at emitKeys.next (<anonymous>)
+    at ReadStream.onData (node:internal/readline/emitKeypressEvents:64:36)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2025-07-19T03:27:13.004Z] ----------------------------------------------------------------------
+[debug] [2025-07-19T03:27:13.006Z] Command:       /usr/local/bin/firebase /home/devasc/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase init
+[debug] [2025-07-19T03:27:13.006Z] CLI Version:   14.5.0
+[debug] [2025-07-19T03:27:13.006Z] Platform:      linux
+[debug] [2025-07-19T03:27:13.006Z] Node Version:  v20.18.2
+[debug] [2025-07-19T03:27:13.006Z] Time:          Sat Jul 19 2025 03:27:13 GMT+0000 (Coordinated Universal Time)
+[debug] [2025-07-19T03:27:13.006Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-07-19T03:27:13.232Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-07-19T03:27:13.233Z] > authorizing via signed-in user (chikboy33@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/devasc/labs/devnet-src/password-generator
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-07-19T03:27:17.196Z] Using project from CLI flag: testingpasswordgenerator
+[debug] [2025-07-19T03:27:17.197Z] Checked if tokens are valid: true, expires at: 1752898923167
+[debug] [2025-07-19T03:27:17.197Z] Checked if tokens are valid: true, expires at: 1752898923167
+[debug] [2025-07-19T03:27:17.198Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/testingpasswordgenerator [none]
+[debug] [2025-07-19T03:27:17.579Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/testingpasswordgenerator 200
+[debug] [2025-07-19T03:27:17.579Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/testingpasswordgenerator {"projectId":"testingpasswordgenerator","projectNumber":"179666462827","displayName":"TestingPasswordGenerator","name":"projects/testingpasswordgenerator","resources":{"hostingSite":"testingpasswordgenerator"},"state":"ACTIVE","etag":"1_5487dd5e-48ad-416c-90ad-2b7f54d3b99a"}
+[info] i  Using project testingpasswordgenerator (TestingPasswordGenerator) 
+[info] 
+=== Hosting Setup
+[debug] [2025-07-19T03:27:17.586Z] Checked if tokens are valid: true, expires at: 1752898923167
+[debug] [2025-07-19T03:27:17.586Z] Checked if tokens are valid: true, expires at: 1752898923167
+[debug] [2025-07-19T03:27:17.586Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/testingpasswordgenerator [none]
+[debug] [2025-07-19T03:27:17.882Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/testingpasswordgenerator 200
+[debug] [2025-07-19T03:27:17.882Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/testingpasswordgenerator {"projectId":"testingpasswordgenerator","projectNumber":"179666462827","displayName":"TestingPasswordGenerator","name":"projects/testingpasswordgenerator","resources":{"hostingSite":"testingpasswordgenerator"},"state":"ACTIVE","etag":"1_5487dd5e-48ad-416c-90ad-2b7f54d3b99a"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2025-07-19T03:27:35.459Z] ExitPromptError: User force closed the prompt with SIGINT
+    at Interface.sigint (/home/devasc/.cache/firebase/tools/lib/node_modules/@inquirer/core/dist/commonjs/lib/create-prompt.js:101:37)
+    at Interface.emit (node:events:518:28)
+    at Interface.emit (node:domain:489:12)
+    at [_ttyWrite] [as _ttyWrite] (node:internal/readline/interface:1125:18)
+    at ReadStream.onkeypress (node:internal/readline/interface:264:20)
+    at ReadStream.emit (node:events:530:35)
+    at ReadStream.emit (node:domain:489:12)
+    at emitKeys (node:internal/readline/utils:371:14)
+    at emitKeys.next (<anonymous>)
+    at ReadStream.onData (node:internal/readline/emitKeypressEvents:64:36)
+[error] 
+[error] Error: An unexpected error has occurred.

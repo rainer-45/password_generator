@@ -1,0 +1,9 @@
+{
+  "projects": {
+    "testing": "testingpasswordgenerator",
+    "production": "productionpasswordgenerator",
+    "staging": "stagingpasswordgenerator"
+  },
+  "targets": {},
+  "etags": {}
+}
